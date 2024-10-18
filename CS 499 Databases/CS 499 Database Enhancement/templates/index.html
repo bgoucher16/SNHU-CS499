@@ -1,0 +1,60 @@
+<!--
+Brandon Goucher
+10/6/2024
+Version 1.0
+Main page that displays all of the users clients on there current financial choices.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Client List</h1>
+        
+        <div class="bottom-header">
+            <!-- Add New Client button aligned to the left -->
+            <a href="{{ url_for('add_client') }}" class="add-button">Add New Client</a>
+            
+            <!-- Username and Logout aligned to the right -->
+            <div class="user-actions">
+                <span id="username-header">Welcome, {{ username }}</span>
+                <a href="{{ url_for('logout') }}" class="logout-button" id="logout-button-header">Logout</a>
+            </div>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Client Name</th>
+                    <th>Service Selected</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for client in clients %}
+                <tr>
+                    <td>{{ client.name }}</td>
+                    <td>{{ 'Brokerage' if client.service == 1 else 'Retirement' }}</td>
+                    <td>
+                        <!-- Link to change service -->
+                        <a href="{{ url_for('change_client', client_id=client._id) }}" class="button">Change Service</a>
+                        
+                        <!-- Form for deleting the client -->
+                        <form action="{{ url_for('delete_client', client_id=client._id) }}" method="POST" style="display: inline-block;">
+                            <button type="submit" class="delete-button">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
