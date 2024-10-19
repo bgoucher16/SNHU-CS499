@@ -8,9 +8,11 @@
 I starting my journey a little over 4 years ago starting at Pierce Community College in Puyallup Washington. I started my major as a Health Information and Technology Major (HIT). The main languages that we focused on there were C#, Python, and HTML. Taking a look back at some of the code that I had written was astonishingly bad. Before getting my AA from there I transfered to SNHU and worked extremely hard in this program to be able to get to the end. Completely classes like Data Structures and Algorithms and Mobile Architecture and Programming which are typically seen as harder classes.
 
 **Data Structures and Algorithms**
+
 Coming into this class I had heard from multiple friends that this was going to be one of the classes that I was going to need to study and know super well. Having completed the class they were not wrong. I learned all about Linked Lists, HashMaps, Binary Search Trees and Vectors. Coming out of the class I have learned even more about time complexities and how each of them are supposed to be used. For example in my final I use a Binary Search Tree because it is one of the fastest ways of searching for specific items in a given list. 
 
 **Mobile Architecture and Programming**
+
 Certainly one of the classes I was super exicted about taking. For this class I was tasked with creating an inventory mobile application that had some rules.
 <ul>
   <li>
