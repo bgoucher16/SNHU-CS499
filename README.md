@@ -7,6 +7,8 @@
 
 I starting my journey a little over 4 years ago starting at Pierce Community College in Puyallup Washington. I started my major as a Health Information and Technology Major (HIT). The main languages that we focused on there were C#, Python, and HTML. Taking a look back at some of the code that I had written was astonishingly bad. Before getting my AA from there I transfered to SNHU and worked extremely hard in this program to be able to get to the end. Completely classes like Data Structures and Algorithms and Mobile Architecture and Programming which are typically seen as harder classes.
 
+At this current moment in time I am yet to program something along side other people. All of my work has been done by me and myself only. That being said though, I have worked at Target for a little over 5 years and with that I have had the opportunity to work along side some incredible people. Collaborating with them to achieve the companies goal of ensuring our guests not only have a good time while shopping, but are also able to find every item that they are looking for.
+
 In the near future I hope to get a job as a software enginner or even possibly a data engineer. I am leaning more towards the data engineer because of I love to take data and transform it into a more user friendly readable display. Using my knowledge of databases and programming languages like Python I am confident in my abilities to achieve this goal of mine.
 
 **Data Structures and Algorithms**
