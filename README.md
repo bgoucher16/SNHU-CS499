@@ -61,7 +61,9 @@ So I wanted to showcase my skills of taking that text application and make it in
 
 I created a full webpage using the flask library, Python, HTML and CSS. This application does a little more than just show clients, after implementing the database, I was about to make it so that each user could have there own client list as well as add and remove clients as needed. This took a lot of time reading documentation and figuring out how to take each aspect from the database and be able to display it on the HTML pages, but with some time I got it working and created this:
 
-<img style="text-align: center" src="https://github.com/user-attachments/assets/39b5b552-db59-4297-9cf7-183f2ef85f16" width="500px" height="350px">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/39b5b552-db59-4297-9cf7-183f2ef85f16" width="500px" height="350px">
+</div>
 
 All clients are able to be removed, added and even there service type changed between the two original options "Retirement" or "Brokerage"
 
