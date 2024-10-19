@@ -33,6 +33,22 @@ Certainly one of the classes I was super exicted about taking. For this class I 
   
 </ul>
 
+**Databases and Security**
+Combining these for me makes sense as all of the security that we have done as been working with databases. A lot of security is through authenication as well as encrypting password into SHA256 encryption. In both of the final projects that I created they both have some form of user authenication when signing in, but they use completely different Databases. The Mobile App uses SQL while the Flask Web Page uses MongoDB. Although they are both databases the use of them is completely different. SQL is typically used when you will have very structured data and in the Mobile app everything was very structured either being and string and an integer and very little changing between integers and strings. Whereas MongoDB makes everything into a JSON file which is significantly more flexible. 
+![image](https://github.com/user-attachments/assets/a2c14d2f-12c9-41e2-9617-155a4ee419ef)
+This is what it typically looks like when inputting anything into a database created using Mongo.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Course Outcomes**
+
+  - I Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science
+  - I Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+  - I Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices
+  - I Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
+  - I Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Artifact 1**
