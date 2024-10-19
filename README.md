@@ -34,9 +34,9 @@ Certainly one of the classes I was super exicted about taking. For this class I 
 </ul>
 
 **Databases and Security**
-Combining these for me makes sense as all of the security that we have done as been working with databases. A lot of security is through authenication as well as encrypting password into SHA256 encryption. In both of the final projects that I created they both have some form of user authenication when signing in, but they use completely different Databases. The Mobile App uses SQL while the Flask Web Page uses MongoDB. Although they are both databases the use of them is completely different. SQL is typically used when you will have very structured data and in the Mobile app everything was very structured either being and string and an integer and very little changing between integers and strings. Whereas MongoDB makes everything into a JSON file which is significantly more flexible. 
+Combining these for me makes sense as all of the security that we have done as been working with databases. A lot of security is through authenication as well as encrypting password into SHA256 encryption. In both of the final projects that I created they both have some form of user authenication when signing in, but they use completely different Databases. The Mobile App uses SQL while the Flask Web Page uses MongoDB. Although they are both databases the use of them is completely different. SQL is typically used when you will have very structured data and in the Mobile app everything was very structured either being and string and an integer and very little changing between integers and strings. Whereas MongoDB makes everything into a JSON file which is significantly more flexible. This is what it typically looks like when inputting anything into a database created using Mongo.
+
 ![image](https://github.com/user-attachments/assets/a2c14d2f-12c9-41e2-9617-155a4ee419ef)
-This is what it typically looks like when inputting anything into a database created using Mongo.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
