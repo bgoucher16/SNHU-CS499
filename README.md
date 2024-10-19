@@ -34,6 +34,7 @@ Certainly one of the classes I was super exicted about taking. For this class I 
 </ul>
 
 **Databases and Security**
+
 Combining these for me makes sense as all of the security that we have done as been working with databases. A lot of security is through authenication as well as encrypting password into SHA256 encryption. In both of the final projects that I created they both have some form of user authenication when signing in, but they use completely different Databases. The Mobile App uses SQL while the Flask Web Page uses MongoDB. Although they are both databases the use of them is completely different. SQL is typically used when you will have very structured data and in the Mobile app everything was very structured either being and string and an integer and very little changing between integers and strings. Whereas MongoDB makes everything into a JSON file which is significantly more flexible. This is what it typically looks like when inputting anything into a database created using Mongo.
 
 ![image](https://github.com/user-attachments/assets/a2c14d2f-12c9-41e2-9617-155a4ee419ef)
@@ -92,4 +93,37 @@ Then the item is searched for and it does a similar process but its a check to s
 **Artifact 3**
 
 **Databases**
+
+For the database, I wanted to use the same file from the Software Reverse Engineering class but instead of a little hashmap that was about 6 lines long and held 5 different clients I knew I could make something so much better. For the database I used MongoDB as it was what I was more comfortable with using it Python, also because of being able to use PyMongo. Then came the structuring of how each part of it was going to be connected.
+
+There were two different collections needed for this project. The "Users" and "Clients."
+
+For the Users collection it was going to have to look something like this:
+
+<ul>
+  <li>_id: auto-generated (MongoDB does this automatically)</li>
+  <li>username: "input from user"</li>
+  <li>password: "input from user"</li>
+</ul>
+
+To be able to connect the two databases I was going to have to make one the primary key. It only made sense to use the _id that was auto generated since it will never be the same as another user.
+Then for the Clients part is was going to look like this:
+
+<ul>
+  <li>_id: auto-generated (MongoDB does this automatically)</li>
+  <li>client_id: generated with a +1 increment</li>
+  <li>name: "Input from user"</li>
+  <li>service: Choice either 1 or 2</li>
+  <li>user_id: copied from the current users session</li>
+</ul>
+
+So, when a new client was created the code takes in the current users _id and sets it as the user_id. This was made so that each user could see there own clients. 
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/39b5b552-db59-4297-9cf7-183f2ef85f16" width="600px" height="350px">
+</div>
+
+Just like in this screenshot, I am signed in as myself and I have two clients, Jane Doe and John Smith. But in the database there are multiple other clients registered to other accounts to test this logic.
+
+
 
