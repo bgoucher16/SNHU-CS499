@@ -52,3 +52,21 @@ Combining these for me makes sense as all of the security that we have done as b
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Artifact 1**
+
+**Software Engineering and Design**
+
+This project started as my final project from Software Reverse Engineering where we took a binary file, converted it into assembly, then created a C++ application based on that assembly code. The main function of this file was for a user to sign in with very little authentication and then be able to type in a number like 1 where they would then be able to view all clients and then 2 to change there service from either Retirement or Brokerage. 
+
+So I wanted to showcase my skills of taking that text application and make it into a full webpage with a database included into it. Knowing that I love to use Python the most and having found the Flask library I knew exactly what I was going to do.
+
+I created a full webpage using the flask library, Python, HTML and CSS. This application does a little more than just show clients, after implementing the database, I was about to make it so that each user could have there own client list as well as add and remove clients as needed. This took a lot of time reading documentation and figuring out how to take each aspect from the database and be able to display it on the HTML pages, but with some time I got it working and created this:
+
+![image](https://github.com/user-attachments/assets/39b5b552-db59-4297-9cf7-183f2ef85f16)
+
+All clients are able to be removed, added and even there service type changed between the two original options "Retirement" or "Brokerage"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Artifact 2**
+
+**Data Structures and Algoritms**
