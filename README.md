@@ -62,7 +62,7 @@ So I wanted to showcase my skills of taking that text application and make it in
 I created a full webpage using the flask library, Python, HTML and CSS. This application does a little more than just show clients, after implementing the database, I was about to make it so that each user could have there own client list as well as add and remove clients as needed. This took a lot of time reading documentation and figuring out how to take each aspect from the database and be able to display it on the HTML pages, but with some time I got it working and created this:
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/39b5b552-db59-4297-9cf7-183f2ef85f16" width="500px" height="350px">
+  <img src="https://github.com/user-attachments/assets/39b5b552-db59-4297-9cf7-183f2ef85f16" width="600px" height="350px">
 </div>
 
 All clients are able to be removed, added and even there service type changed between the two original options "Retirement" or "Brokerage"
@@ -72,3 +72,24 @@ All clients are able to be removed, added and even there service type changed be
 **Artifact 2**
 
 **Data Structures and Algoritms**
+
+This project was apart of the Mobile Arcitecture and Programming class. In the beginning it had all of the requirements as mentioned above, but to improve this project it was going to need some functionality for future use. So, I wanted to add a search bar, but just adding a search bar with a query wasn't going to be good enough. So, my plan was to make it so that when a user enters in an item number that they are looking for it will input all of the items from the database that relate to them into a Binary Search Tree and then iterate through that tree to find the number that was previously searched for. If the number is not found then it will return False and tell the user that the number was not found, but if it is found they will be taken to a new screen that shows them all the information that could want about that specific item.
+
+This Binary Search Tree has two possible time complexities depending on how that specific user creates there item numbers. If they do them in order then it will be O(n) because it essential just turns into a linked list, but if ordered randomly they it will be O(log n) since the tree will be able to go through significantly less numbers to find the number that the user is looking for. At this point in time there isn't going to be any difference in time, but if the app where to have a user with hundred upon hundreds of items I am sure the time would be semi noticable.
+
+Takes all of the items from the database and creates the tree testing if they are either greater than or less than the current item.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a14b80dc-4b64-49bf-a0eb-d7a037529b12" width="600px" height="350px">
+</div>
+
+Then the item is searched for and it does a similar process but its a check to see which direction in the tree the next number will be. If its less than it will go left and if its greater than it will go right until the correct number is found.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4d95b9c9-cc92-44ce-b0b5-e99015215b70" width="600px" height="350px">
+</div>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Artifact 3**
+
+**Databases**
+
