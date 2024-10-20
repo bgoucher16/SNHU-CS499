@@ -62,7 +62,7 @@ Link to full write up <a href="https://github.com/bgoucher16/SNHU-CS499/tree/mai
 
 **Software Engineering and Design**
 
-Link to full write up <a href="https://github.com/bgoucher16/SNHU-CS499/tree/main/CS%20499%20Software%20Engineering%20and%20Design"> Click here </a>
+Link to source code <a href="https://github.com/bgoucher16/SNHU-CS499/tree/main/CS%20499%20Software%20Engineering%20and%20Design"> Click here </a>
 
 This project started as my final project from Software Reverse Engineering where we took a binary file, converted it into assembly, then created a C++ application based on that assembly code. The main function of this file was for a user to sign in with very little authentication and then be able to type in a number like 1 where they would then be able to view all clients and then 2 to change there service from either Retirement or Brokerage. 
 
@@ -82,7 +82,7 @@ All clients are able to be removed, added and even there service type changed be
 
 **Data Structures and Algoritms**
 
-Link to full write up <a href="https://github.com/bgoucher16/SNHU-CS499/tree/main/CS%20499%20Algorithms%20and%20Data%20Structures"> Click here </a>
+Link to source code <a href="https://github.com/bgoucher16/SNHU-CS499/tree/main/CS%20499%20Algorithms%20and%20Data%20Structures"> Click here </a>
 
 This project was apart of the Mobile Arcitecture and Programming class. In the beginning it had all of the requirements as mentioned above, but to improve this project it was going to need some functionality for future use. So, I wanted to add a search bar, but just adding a search bar with a query wasn't going to be good enough. So, my plan was to make it so that when a user enters in an item number that they are looking for it will input all of the items from the database that relate to them into a Binary Search Tree and then iterate through that tree to find the number that was previously searched for. If the number is not found then it will return False and tell the user that the number was not found, but if it is found they will be taken to a new screen that shows them all the information that could want about that specific item.
 
@@ -104,7 +104,7 @@ Then the item is searched for and it does a similar process but its a check to s
 
 **Databases**
 
-Link to full write up <a href="https://github.com/bgoucher16/SNHU-CS499/tree/main/CS%20499%20Databases"> Click here </a>
+Link to source code <a href="https://github.com/bgoucher16/SNHU-CS499/tree/main/CS%20499%20Databases"> Click here </a>
 
 For the database, I wanted to use the same file from the Software Reverse Engineering class but instead of a little hashmap that was about 6 lines long and held 5 different clients I knew I could make something so much better. For the database I used MongoDB as it was what I was more comfortable with using it Python, also because of being able to use PyMongo. Then came the structuring of how each part of it was going to be connected.
 
