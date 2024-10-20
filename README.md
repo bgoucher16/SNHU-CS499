@@ -54,6 +54,8 @@ Combining these for me makes sense as all of the security that we have done as b
   - I Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals
   - I Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources
 
+Link to full write up <a href="https://github.com/bgoucher16/SNHU-CS499/tree/main/Narratives"> Click here </a>
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Artifact 1**
